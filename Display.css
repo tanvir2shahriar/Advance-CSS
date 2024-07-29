@@ -1,0 +1,16 @@
+#box{
+    background-color: blue;
+    width: 500px;
+    height: 100px;
+    color: aliceblue;
+    border: 2px salmon solid;
+    margin-bottom: 20px;}
+#inline-box{
+    background-color: aqua;
+    width: 100px;
+    height: 50px;
+    border: 3px black solid;
+    display: inline-block;
+    /* visibility: hidden; */}
+p {
+    background-color: burlywood;}

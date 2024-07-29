@@ -1,0 +1,30 @@
+.container{
+    background-color: gold;
+    padding: 20px;
+    min-height: 60vh;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;   
+    align-items: center;
+    
+}
+
+.box{
+    background-color: sandybrown;
+    border: black solid 2px;
+    padding: 30px;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 27px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 100px;   
+}
+.box:nth-child(3){
+    flex-grow: 1;
+    
+}

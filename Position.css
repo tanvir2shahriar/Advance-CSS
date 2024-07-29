@@ -1,0 +1,56 @@
+body{
+    height: 200vh;
+}
+
+.outer-container{
+    border: 3px solid black;
+    height: 75vh;
+    width: 65vw; 
+    margin: 40px auto;
+    position: relative;
+    
+}
+
+.inner-container{
+    border: 3px solid rgb(15, 224, 168);
+    height: 35vh;
+    width: 35vw; 
+    margin:150px auto;
+   
+}
+
+.box{
+   
+    width: 150px;
+    height: 150px;
+    padding: 1rem;
+}
+.Absolute{
+    background-color: firebrick;
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    
+}
+.Relative{
+    background-color: aqua;
+    top: 0;
+    right: 0px;
+    position:absolute;
+ 
+}
+.Sticky{
+    position: sticky;
+top: 5px;
+left: 0;
+background-color: tan;
+
+}
+
+.Fixed{
+    background-color: teal;
+position: fixed;
+top: 5;
+left: 50%;
+
+}
